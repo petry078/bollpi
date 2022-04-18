@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 * {
     margin: 0;
@@ -11,19 +12,18 @@ a {
 
 .home {
     background-image: url("/assets/home.png");
-    opacity: 0.6;
     height: 100vh;
-}
-
-.homeImg {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 121px;
+    margin: 0 190px;
 }
 
 .logo {
@@ -34,10 +34,102 @@ header {
 .menu {
     list-style: none;
     display: flex;
+    align-items: center;
     gap: 30px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 21px;
+}
+
+.btnContato {
+    all: unset;
+    cursor: pointer;
+    color: white;
+    width: 126px;
+    height: 38px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnContato:hover {
+    all: unset;
+    cursor: pointer;
+    color: black;
+    width: 126px;
+    height: 38px;
+    border: 2px solid white;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.homeH1 {
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 157px;
+    line-height: 196px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -0.05em;
+    flex: 10;
+}
+
+.redesSociaisHome {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.rowHomeBot {
+    display: flex;
+    margin-left: 200px;
+    align-items: center;
+}
+
+.containerHomeTexto {
+    width: 485px;
+    height: 141px;
+}
+
+.homeTexto {
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.05em;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+.setinha {
+    margin-left: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    justify-self: center;
 }
