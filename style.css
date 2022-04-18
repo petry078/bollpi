@@ -228,7 +228,7 @@ hr {
 /*A BOLLPI 2*/
 
 .aBollpi2 {
-    margin: 48px 0 0 0;
+    margin: 48px 0;
     display: flex;
     justify-content: space-around;
     }
@@ -256,31 +256,133 @@ hr {
 /*PRODUTOS*/
 
 .fundoCinza {
-    margin: 48px 0 0 0;
-    height: 993px;
     background-color: #F5F7FB;
+    height: 920px;
+    max-width: 100vw;
+}
+
+.lareira {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding: 60px 0 0 0;
+    z-index: 0;
+}
+
+.caixaTexto {
+    margin: 85px 0 0 645px;
+    height: 491px;
+    width: 874px;
+    position: absolute;
     z-index: 1;
-}
-
-.imgLareira {
-    background-image: url("/assets/lareira.png");
-    max-width: 100%;
-    z-index: 2;
-}
-
-.caixaProdutos {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pProdutos {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    color: #111111;
+    width: 550px;
+    margin: 0 0 10px 0;
 }
 
 /*AMBIENTES*/
 
+.ambientes {
+    background-image: url("/assets/bg-ambientes.png");
+    width: 100%;
+    height: 982px;
+}
+
+.textoAmbientes {
+    padding: 30px 0 0 0;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.linha {
+    margin: -60px 0 0 0;
+}
+
+.gif {
+    height: 50px;
+}
+
 /*FORNECEDORES*/
+
+.bgFornecedores {
+    background-image: url("/assets/04.png");
+    background-repeat: no-repeat;
+    margin: 66px 0 0 66px;
+}
+
+.fornecedores {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.gridFornecedores {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 1px 1px;
+    grid-template-areas: 
+    "portinari castelatto crissair"
+    "dune evol kohler"
+    "castelatto2 dune2 portinari2";
+    width: 495px;
+}
+.portinari { grid-area: portinari; }
+.castelatto { grid-area: castelatto; }
+.crissair { grid-area: crissair; }
+.dune { grid-area: dune; }
+.evol { grid-area: evol; }
+.kohler { grid-area: kohler; }
+.castelatto2 { grid-area: castelatto2; }
+.dune2 { grid-area: dune2; }
+.portinari2 { grid-area: portinari2; }
+
+.um:hover {
+    height: 100%;
+}
+.dois:hover {
+    height: 100%;
+}
+.tres:hover {
+    height: 100%;
+}
+.quatro:hover {
+    height: 100%;
+}
+.cinco:hover {
+    height: 100%;
+}
+.seis:hover {
+    height: 100%;
+}
+.sete:hover {
+    height: 100%;
+}
+.oito:hover {
+    height: 100%;
+}
+.nove:hover {
+    height: 100%;
+}
 
 /*CONTATO*/
 
