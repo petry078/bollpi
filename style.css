@@ -154,7 +154,7 @@ hr {
     margin: 90px 0 0 0;
     display: flex;
     justify-content: space-around;
-    }
+}
 
 .textoBollpi {
     background-image: url("/assets/01.png");
@@ -231,7 +231,7 @@ hr {
     margin: 48px 0;
     display: flex;
     justify-content: space-around;
-    }
+}
 
 .textoBollpi2 {
     margin-left: 50px;
@@ -331,8 +331,6 @@ hr {
 .fornecedores {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    margin: 0 auto;
 }
 
 .gridFornecedores {
@@ -340,50 +338,173 @@ hr {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     gap: 1px 1px;
-    grid-template-areas: 
-    "portinari castelatto crissair"
-    "dune evol kohler"
-    "castelatto2 dune2 portinari2";
+    grid-template-areas:
+        "portinari castelatto crissair"
+        "dune evol kohler"
+        "castelatto2 dune2 portinari2";
     width: 495px;
 }
-.portinari { grid-area: portinari; }
-.castelatto { grid-area: castelatto; }
-.crissair { grid-area: crissair; }
-.dune { grid-area: dune; }
-.evol { grid-area: evol; }
-.kohler { grid-area: kohler; }
-.castelatto2 { grid-area: castelatto2; }
-.dune2 { grid-area: dune2; }
-.portinari2 { grid-area: portinari2; }
+
+.portinari {
+    grid-area: portinari;
+}
+
+.castelatto {
+    grid-area: castelatto;
+}
+
+.crissair {
+    grid-area: crissair;
+}
+
+.dune {
+    grid-area: dune;
+}
+
+.evol {
+    grid-area: evol;
+}
+
+.kohler {
+    grid-area: kohler;
+}
+
+.castelatto2 {
+    grid-area: castelatto2;
+}
+
+.dune2 {
+    grid-area: dune2;
+}
+
+.portinari2 {
+    grid-area: portinari2;
+}
 
 .um:hover {
     height: 100%;
 }
+
 .dois:hover {
     height: 100%;
 }
+
 .tres:hover {
     height: 100%;
 }
+
 .quatro:hover {
     height: 100%;
 }
+
 .cinco:hover {
     height: 100%;
 }
+
 .seis:hover {
     height: 100%;
 }
+
 .sete:hover {
     height: 100%;
 }
+
 .oito:hover {
     height: 100%;
 }
+
 .nove:hover {
     height: 100%;
 }
 
+.cozinha {
+    width: 100%;
+}
+
+.fotoCozinha {
+    display: block;
+    margin: 0 auto;
+}
+
 /*CONTATO*/
 
+.redesSociaisContato {
+    width: 88%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+}
+
+.rsContato {
+    list-style: none;
+}
+
+
+.contato {
+    width: 1735px;
+    display: block;
+    margin: 0 auto;
+}
+
+.containerContato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuContato {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: black;
+    margin: 0 0 0 140px;
+}
+
+.textoInfos {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    color: black;
+}
+
 /*RODAPÉ*/
+
+.linhaMaior {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.rodape {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+    color: #111111;
+}
+
+.pRodape {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
