@@ -8,3 +8,7 @@ Live e deploy da resolução do projeto: [https://bollpi.netlify.app/](https://b
 Melhor vizualização em monitores maiores (1920 x 1080). Uma vizualização em 80% pode resolver problemas em notebooks.
 
 18/02/2022
+
+## Captura de tela
+
+![proof.png](/proof.png)
